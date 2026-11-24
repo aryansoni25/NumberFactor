@@ -1,10 +1,10 @@
 public class HouseRobber {
-    private int rob(int[] num,int curr){
-        if(curr>= num.length){
+    private int rob(int[] num,int current){
+        if(current>= num.length){
             return 0;
         }else{
-            int steal=num[curr]+rob(num,curr+2);
-            int skip=rob(num,curr+1);
+            int steal=num[current]+rob(num,current+2);
+            int skip=rob(num,current+1);
             return Math.max(steal,skip);
         }
     }
