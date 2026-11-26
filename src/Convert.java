@@ -13,6 +13,6 @@ public class Convert {
         return Math.min(deleteOP,Math.min(insertOP,replaceOP));
     }
     public int findMin(String st1,String st2){
-        return findMin(st1,s2,0,0);
+        return findMin(st1,st2,0,0);
     }
 }
