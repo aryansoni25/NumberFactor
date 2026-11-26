@@ -8,7 +8,7 @@ public class HouseRobber {
             return Math.max(steal,skip);
         }
     }
-    public int rob(int[] num){
-        return rob(num,0);
+    public int rob(int[] nums){
+        return rob(nums,0);
     }
 }
