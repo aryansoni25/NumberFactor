@@ -12,7 +12,7 @@ public class Convert {
         int replaceOP=1+findMin(s1,s2,index1+1,index2+1);
         return Math.min(deleteOP,Math.min(insertOP,replaceOP));
     }
-    public int findMin(String s1,String s2){
-        return findMin(s1,s2,0,0);
+    public int findMin(String st1,String st2){
+        return findMin(st1,s2,0,0);
     }
 }
